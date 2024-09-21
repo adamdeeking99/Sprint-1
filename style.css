@@ -1,0 +1,32 @@
+h1 {
+    display: inline;
+    margin-right: 75px; /* Add space between the headings */
+}
+
+li {
+    align-content: center;
+    display: inline; /* List items appear in a line */
+    margin-right: 120px; /* Add space between items */
+ 
+}
+
+.desc {
+    display: flex; /* Display elements side by side */
+    gap: 225px; /* Space between paragraphs */
+    flex-wrap: wrap; /* Wraps to the next line if needed */
+
+}
+p {
+    max-width: 200px; /* Set maximum width for each paragraph */
+    word-wrap: break-word; /* Ensure long words wrap properly */
+    margin: 0; /* Remove default margin for cleaner layout */
+}
+
+.images_index {
+    align-content: right;
+    display: grid;
+   
+}
+
+
+
