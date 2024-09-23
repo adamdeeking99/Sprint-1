@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.RestaurantLogo{
+    width: 100%;
+    display: block;
+   height: auto;
+}
+
+ol{
+    list-style-type: decimal;
+    color: black;
+    margin-left: 20px;
+}
+
+.Foodimg{
+    width: 100%;
+    border: 2px solid yellow;
+    display: block;
+    margin: 10px 0;
+}
+
+#food-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+ol {
+    list-style-type: decimal;
+    color: black;
+    margin-left: 0;
+}
+
+li {
+    margin: 10px;
+    width: 200px;
+}
